@@ -10,3 +10,5 @@ if you set a value to a property of an object that didn’t exist before java sc
 
 In order to calculate the total I creating a "total" variable that had a value of 0 in it before the loop started then when the loop started I took the price of every item and added it to the "total" until the loop was finished and that all added up to be the same variable with a value equivalent to the total price.
 
+### Reflect on how using .pop() affected your data. How did removing an item from the array automatically change your final calculations when you ran the total logic?
+when I removed the item from the array because my total was already final I had to manually go in and subtract the items price. Aternatively I could have run the for loop again and gotten a new price without the last items price in it if I ran it after I popped the last item off.
