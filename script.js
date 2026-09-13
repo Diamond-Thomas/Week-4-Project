@@ -27,3 +27,11 @@ while(addItem == true){
 
 console.log("Number of items added: ", receiptItems.length);
 console.log("Receipt Items: ", receiptItems);
+
+total = 0;
+for (items in receiptItems){
+    console.log(receiptItems[items].name + " -- $" + receiptItems[items].price);
+    total += receiptItems[items].price;
+
+}
+console.log("Total: $" + total);
